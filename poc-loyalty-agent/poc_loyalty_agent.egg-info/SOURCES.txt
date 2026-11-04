@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+poc_loyalty_agent.egg-info/PKG-INFO
+poc_loyalty_agent.egg-info/SOURCES.txt
+poc_loyalty_agent.egg-info/dependency_links.txt
+poc_loyalty_agent.egg-info/requires.txt
+poc_loyalty_agent.egg-info/top_level.txt

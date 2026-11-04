@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "gcs": {
+      "command": ".venv/bin/python",
+      "args": ["mcp_servers/gcs_okf_server/server.py"],
+      "transport": "stdio",
+      "env": {}
+    },
+    "bigquery": {
+      "command": ".venv/bin/python",
+      "args": ["mcp_servers/bq_server/server.py"],
+      "transport": "stdio",
+      "env": {}
+    }
+  }
+}
+

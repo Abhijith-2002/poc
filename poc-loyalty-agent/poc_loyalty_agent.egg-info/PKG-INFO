@@ -1,0 +1,33 @@
+Metadata-Version: 2.4
+Name: poc-loyalty-agent
+Version: 0.1.0
+Summary: Retail Loyalty Deep Agent POC with OKF v0.2 and BigQuery MCP
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: deepagents>=0.1.0
+Requires-Dist: langchain>=0.3.0
+Requires-Dist: langchain-core>=0.3.0
+Requires-Dist: langchain-google-genai>=2.0.0
+Requires-Dist: langchain-anthropic>=0.3.0
+Requires-Dist: langchain-mcp-adapters>=0.1.0
+Requires-Dist: mcp>=1.0.0
+Requires-Dist: google-cloud-bigquery>=3.20.0
+Requires-Dist: google-cloud-storage>=2.14.0
+Requires-Dist: faker>=24.0.0
+Requires-Dist: numpy>=1.26.0
+Requires-Dist: pandas>=2.2.0
+Requires-Dist: pyarrow>=15.0.0
+Requires-Dist: matplotlib>=3.8.0
+Requires-Dist: pydantic>=2.7.0
+Requires-Dist: pyyaml>=6.0.1
+Requires-Dist: sqlglot>=23.0.0
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: tabulate>=0.9.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.23.0; extra == "dev"
+Requires-Dist: ruff>=0.4.0; extra == "dev"
+
+# Retail Loyalty OKF Deep Agent POC
+
+An autonomous agent POC built on LangChain `deepagents` that answers retail loyalty analytics questions by querying an OKF v0.2 bundle in GCS and BigQuery tables via Model Context Protocol (MCP).
